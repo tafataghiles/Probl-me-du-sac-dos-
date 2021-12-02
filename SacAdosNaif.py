@@ -12,7 +12,7 @@ Original file is located at
 * Masse de l'objet
 """
 
-liste_objets=[{"nom":"A", "valeur":"16", "masse":"5"},{"nom":"B", "valeur":"22", "masse":"7"},{"nom":"C", "valeur":"12", "masse":"4"},{"nom":"D", "valeur":"8", "masse":"3"}]
+liste_objets=[{"nom":"A", "valeur":"1", "masse":"1"},{"nom":"B", "valeur":"6", "masse":"2"},{"nom":"C", "valeur":"10", "masse":"3"},{"nom":"D", "valeur":"16", "masse":"5"}]       
 
 """**La fonction Ajout_Ratio():**
   Permet de calculer la l'utilité massique ui/mi et de le rajouter a notre dictionnaire 
@@ -52,6 +52,6 @@ def sacADos_naif(capacite, liste_objets):
           Objets_selection.append((liste_objets_T[i]["nom"]))
     return Objets_selection
 
-L_Objets=sacADos_naif(14, liste_objets)
+L_Objets=sacADos_naif(7, liste_objets)
 print(L_Objets)
 
